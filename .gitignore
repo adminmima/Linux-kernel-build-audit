@@ -1,0 +1,25 @@
+# 内核源码树（太大，不提交）
+linux-7.4-rc1/
+linux-7.4-rc2/
+
+# sccache 压缩包（767M，单独放 Release）
+*.tar.gz
+
+# 编译产物
+*.o
+*.ko
+*.mod
+vmlinux
+bzImage
+
+# 临时文件
+*.log
+*.tmp
+
+# 清理备份
+*.bak-*
+
+
+*.bak*
+*.txt
+linux-7.4-rc1/
